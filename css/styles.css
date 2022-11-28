@@ -1,14 +1,20 @@
+:root{
+    --NAVYBLUE: #2E2F42;
+    --white: #FFFFFF;
+    --blu: #4D5AE5;
+    --red: #ff0000;
+    --dark: #434455;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    }
+
 body{
 font-family: 'Roboto';
 font-style: normal;
 }
 
-:root{
---primaryColor: #2E2F42
-}
-
 .subject{
-background: #FFFFFF;
+background: var(--white);
 }
 
 .logo{
@@ -16,7 +22,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
-color: #4D5AE5;
+color: var(--blu);
 text-decoration: none;
 }
 
@@ -25,7 +31,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 text-decoration: none;
 }
 
@@ -33,7 +39,7 @@ text-decoration: none;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 }
 
 .list-studio{
@@ -43,7 +49,7 @@ list-style-type: none;
 
 .list-studio:hover,
 .list-studio:focus{
-color: #ff0000;
+color: var(--red);
 }
 
 .list-portfolio{
@@ -52,7 +58,7 @@ text-decoration: none;
 
 .list-portfolio:hover,
 .list-portfolio:focus{
-color: #ff0000;
+color: var(--red);
 }
 
 .list-contacts{
@@ -61,47 +67,47 @@ text-decoration: none;
 
 .list-contacts:hover,
 .list-contacts:focus{
-color: #ff0000;
+color: var(--red);
 }
 
 .mail{
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--dark);
 text-decoration: none;
 }
 
 .mail:hover,
 .mail:focus{
-color:#ff0000;
+color: var(--red);
 }
 
 .tel{
 font-size: 16px;
 line-height: 1.5;
-color: #434455; 
+color: var(--dark);
 text-decoration: none;
 }
 
 .tel:hover,
 .tel:focus{
-color:#ff0000;
+color: var(--red);
 }
 
 .title{
-background: var(--primaryColor);
+background: var(--NAVYBLUE);
 font-weight: 600;
 font-size: 56px;
 line-height: 1;
-color: #FFFFFF;
+color: var(--white);
 }
 
 .button{
-background: #4D5AE5;
+background: var(--blu);
 font-weight: 600;
 font-size: 16px;
 line-height: 1.2;
-color: #FFFFFF;
+color: var(--white);
 cursor: pointer;
 }
 
@@ -109,44 +115,44 @@ cursor: pointer;
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 }
 
 .items{
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--dark);
 }
 
 .work{
 font-weight: 600;
 font-size: 36px;
 line-height: 1.1;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 }
 
 .comanda{
 font-weight: 600;
 font-size: 36px;
 line-height: 1.1;
-color: var(--primaryColor);  
+color: var(--NAVYBLUE);  
 }
 
 .name{
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 }
 
 .slogan{
 font-size: 16px;
 line-height: 1.5;
-color: #434455; 
+color: var(--dark); 
 }
 
 .footer{
-background: var(--primaryColor);
+background: var(--NAVYBLUE);
 }
 
 .logo-links{
@@ -155,14 +161,14 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.2;
-color: #F4F4FD;
+color: var(--CLOUD);
 text-decoration: none; 
 }
 
 .text{
 font-size: 16px;
 line-height: 1.5;
-color: #E7E9FC;   
+color: var(--CORNFLOWER);   
 }
 
 
@@ -171,7 +177,7 @@ font-family: 'Roboto';
 }
 
 .header-list{
-background: #FFFFFF;
+background: var(--white);
 font-style: normal;
 }
 
@@ -180,7 +186,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
-color: #4D5AE5;
+color: var(--blu);
 text-decoration: none;
 }
 
@@ -189,7 +195,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 text-decoration: none;
 }
 
@@ -197,58 +203,58 @@ text-decoration: none;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 text-decoration: none;
 }
 
 .link:hover,
 .link:focus{
-color: #ff0000;
+color: var(--red);
 }
 
 .link:active{
-color:#4D5AE5
+color: var(--blu);
 }
 
 .e-mail{
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--dark);
 text-decoration: none;
 }
 
 .e-mail:hover,
 .e-mail:focus{
-color:#ff0000
+color: var(--red);
 }
 
 .phone{
 font-size: 16px;
 line-height: 1.5;
-color: #434455;   
+color: var(--dark);  
 text-decoration: none;
 }
 
 .phone:hover,
 .phone:focus{
-color: #ff0000;
+color: var(--red);
 }
 
 .btn-all{
-background: #4D5AE5;
+background: var(--blu);
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-color: #FFFFFF;
+color: var(--white);
 cursor: pointer;
 }
 
 .btn{
-background: #F4F4FD;
+background: var(--CLOUD);
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-color: #4D5AE5;
+color: var(--blu);
 cursor: pointer;
 }
 
@@ -256,17 +262,17 @@ cursor: pointer;
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
-color: var(--primaryColor);
+color: var(--NAVYBLUE);
 }
 
 .text-item{
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+color: var(--dark);
 }
 
 .footer-list{
-background: var(--primaryColor);
+background: var(--NAVYBLUE);
 }
 
 .logo-web{
@@ -274,7 +280,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.2;
-color: #4D5AE5;
+color: var(--blu);
 text-decoration: none;
 }
 
@@ -283,7 +289,7 @@ font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.2;
-color: #F4F4FD;
+color: var(--CLOUD);
 text-decoration: none;
 }
 
@@ -291,5 +297,5 @@ text-decoration: none;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #E7E9FC;
+color: var(--CORNFLOWER); 
 }
